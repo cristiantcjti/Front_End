@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        <link rel="stylesheet" href="reset.css" >
+        <link rel="stylesheet" href="style.css" >
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1>
+                    <img src="logoleste2.svg" class="logo">
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Products</a></li>
+                        <li><a href="contatos.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="namesurname">Name and Surname</label>
+                <input type="text" id="namesurname" class="input-standard">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" class="input-standard">
+
+                <label for="talephone">Telephone</label>
+                <input type="text" id="talephone" class="input-standard">
+
+                <label for="message">Message</label>
+                <textarea cols="70" rows="10" id="message" class="input-standard"></textarea>
+                <div>
+                    <p>How do you prefer to be contacted?</p>
+                    <label for="radio-email"><input name="contact" type="radio" value="email" id="radio-email"> Email</label>
+                    
+
+                    <label for="radio-telephone"><input name="contact"  type="radio" value="telephone" id="radio-telephone"> Telephone</label>
+                    
+                    
+                    <label for="radio-whatsapp"><input name="contact"  type="radio" value="whatsapp" id="radio-whatsapp"> Whatsapp</label>
+                    
+                </div>
+
+                <div>
+                    <p>Which time would you like to set?</p>
+                        <select>
+                            <option>Morning</option>
+                            <option>Afternoon</option>
+                            <option>Evening</option>
+                        </select>
+                </div>
+
+                <label class="checkbox"><input type="checkbox">Would you like to receive our newsletter?</label>
+              
+                <input type="submit" value="Submit"> 
+            </form>
+        </main>
+
+        <footer>
+            <img src="logoleste2.svg" class="logofooter">
+            <p class="copyright">&copy; Copyright Barber Shop Lost - 2021</p>
+        </footer>
+    </body>
+</html>
