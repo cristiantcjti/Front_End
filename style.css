@@ -110,7 +110,7 @@ main {
 }
 
 form {
-    margin: 40px 0;
+    margin: 40px 0 0 5%;
 }
 
 form label, form legend {
@@ -149,7 +149,7 @@ form label, form legend {
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 40px 0 40px 5%;
 }
 
 thead {
